@@ -7,6 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import com.qa.NSEIndia.Factory.DriverManager;
+import com.qa.NSEIndia.pages.CompanyInfoPage;
 import com.qa.NSEIndia.pages.HomePage;
 import com.qa.NSEIndia.pages.Nifty50Page;
 
@@ -18,6 +19,7 @@ public class BaseTest {
 	protected Properties prop;
 	protected HomePage homePage;
 	protected Nifty50Page nifty50Page;
+	protected CompanyInfoPage companyInfoPage;
 	
 	@BeforeTest
 	public void setup() {
@@ -29,7 +31,7 @@ public class BaseTest {
 	
 	@AfterTest
 	public void tearDown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }

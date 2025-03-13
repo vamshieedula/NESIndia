@@ -1,11 +1,11 @@
 package com.qa.NSEIndia.pages;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import com.qa.NSEIndia.constants.AppConstants;
 import com.qa.NSEIndia.utilities.ElementUtilities;
@@ -19,7 +19,6 @@ public class HomePage {
 	private By nifty50 = By.xpath("(//img[@title=\"NSE - NIFTY 50\"])[1]");
 	private By selectProduct = By.xpath("(//div[@id=\"header-search-input_listbox\"]//div/div)[1]");
 	private By search = By.xpath("//input[@id=\"header-search-input\"]");
-	private By weekHigh = By.xpath("//span[@id=\"week52highVal\"]");
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -32,14 +31,20 @@ public class HomePage {
 		return title;
 	}
 
-	public String selectProduct(String company) throws InterruptedException {
+	public boolean checkSearchBoxExist() {
+		return eleUtil.doIsDisplayed(search);
+	}
+
+	public CompanyInfoPage searchProduct(String company) throws InterruptedException {
 		eleUtil.isPageLoaded(TimeUtil.DEFAULT_LONG_TIME);
 		eleUtil.doSendKeys(search, company);
 		eleUtil.clickWhenReady(selectProduct, TimeUtil.DEFAULT_MEDIUM_TIME);
-		Thread.sleep(5000);
-		return eleUtil.doGetText(weekHigh);
+		// List<String> week52Values = eleUtil.getElementsTextList(weekHighLow);
+		return new CompanyInfoPage(driver);
 	}
 	
+	
+
 	public boolean checkNifty50LinkExist() {
 		return eleUtil.doIsDisplayed(nifty50);
 	}
@@ -65,7 +70,7 @@ public class HomePage {
 		String titlePar = driver.getTitle();
 		System.out.println(titlePar);
 		getWindow();
-		String text = driver.findElement(By.xpath("(//td[@headers='"+company+"']/parent::tr//td)[12]")).getText();
+		String text = driver.findElement(By.xpath("(//td[@headers='" + company + "']/parent::tr//td)[12]")).getText();
 		return text;
 
 	}
