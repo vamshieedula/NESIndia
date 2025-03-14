@@ -17,7 +17,7 @@ public class HomePage {
 	private ElementUtilities eleUtil;
 
 	private By nifty50 = By.xpath("(//img[@title=\"NSE - NIFTY 50\"])[1]");
-	private By selectProduct = By.xpath("(//div[@id=\"header-search-input_listbox\"]//div/div)[1]");
+	private By selectCompany = By.xpath("(//div[@id=\"header-search-input_listbox\"]//div/div)[1]");
 	private By search = By.xpath("//input[@id=\"header-search-input\"]");
 
 	public HomePage(WebDriver driver) {
@@ -38,8 +38,7 @@ public class HomePage {
 	public CompanyInfoPage searchProduct(String company) throws InterruptedException {
 		eleUtil.isPageLoaded(TimeUtil.DEFAULT_LONG_TIME);
 		eleUtil.doSendKeys(search, company);
-		eleUtil.clickWhenReady(selectProduct, TimeUtil.DEFAULT_MEDIUM_TIME);
-		// List<String> week52Values = eleUtil.getElementsTextList(weekHighLow);
+		eleUtil.clickWhenReady(selectCompany, TimeUtil.DEFAULT_MEDIUM_TIME);
 		return new CompanyInfoPage(driver);
 	}
 	
