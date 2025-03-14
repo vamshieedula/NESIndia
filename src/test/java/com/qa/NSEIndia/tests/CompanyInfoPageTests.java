@@ -21,7 +21,7 @@ public class CompanyInfoPageTests extends BaseTest{
 	}
 	
 	@Test(dataProvider = "userRegTestData")
-	public void selectProductTest(String comapanyName) throws InterruptedException {
+	public void selectProductTest(String comapanyName) {
 		companyInfoPage = homePage.searchProduct(comapanyName);
 		List<String> text = companyInfoPage.selectProduct();
 		for (int i = 0; i < text.size(); i++) {
@@ -30,7 +30,7 @@ public class CompanyInfoPageTests extends BaseTest{
 	}
 	
 	@Test
-	public void selectProductTestWithAssert() throws InterruptedException {
+	public void selectProductTestWithAssert() {
 		companyInfoPage = homePage.searchProduct("tatamotors");
 		List<String> text = companyInfoPage.selectProduct();
 		for (int i = 0; i < text.size(); i++) {

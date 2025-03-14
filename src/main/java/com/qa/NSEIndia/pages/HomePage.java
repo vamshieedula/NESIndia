@@ -35,7 +35,7 @@ public class HomePage {
 		return eleUtil.doIsDisplayed(search);
 	}
 
-	public CompanyInfoPage searchProduct(String company) throws InterruptedException {
+	public CompanyInfoPage searchProduct(String company) {
 		eleUtil.isPageLoaded(TimeUtil.DEFAULT_LONG_TIME);
 		eleUtil.doSendKeys(search, company);
 		eleUtil.clickWhenReady(selectCompany, TimeUtil.DEFAULT_MEDIUM_TIME);

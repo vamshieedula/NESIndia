@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-15T01:50:29 IST" name="NSEIndia App Test Suite" finished-at="2025-03-15T01:51:13 IST" duration-ms="44324">
+  <suite started-at="2025-03-15T01:54:15 IST" name="NSEIndia App Test Suite" finished-at="2025-03-15T01:54:57 IST" duration-ms="42183">
     <groups>
     </groups>
-    <test started-at="2025-03-15T01:50:29 IST" name="CompanyInfo Page Test_chrome" finished-at="2025-03-15T01:51:12 IST" duration-ms="42353">
+    <test started-at="2025-03-15T01:54:15 IST" name="CompanyInfo Page Test_chrome" finished-at="2025-03-15T01:54:56 IST" duration-ms="41008">
       <class name="com.qa.NSEIndia.tests.CompanyInfoPageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:50:30 IST" name="setup" finished-at="2025-03-15T01:50:49 IST" duration-ms="19450" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:54:15 IST" name="setup" finished-at="2025-03-15T01:54:30 IST" duration-ms="14155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:50:49 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:50:57 IST" duration-ms="7972" status="PASS">
+        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:54:30 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:54:42 IST" duration-ms="12896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTest -->
-        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:50:57 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:51:04 IST" duration-ms="6524" status="PASS">
+        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:54:42 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:54:48 IST" duration-ms="5436" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,64 +40,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTest -->
-        <test-method signature="selectProductTestWithAssert()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:51:04 IST" name="selectProductTestWithAssert" finished-at="2025-03-15T01:51:11 IST" duration-ms="6940" status="PASS">
+        <test-method signature="selectProductTestWithAssert()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:54:48 IST" name="selectProductTestWithAssert" finished-at="2025-03-15T01:54:55 IST" duration-ms="6572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTestWithAssert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:51:11 IST" name="tearDown" finished-at="2025-03-15T01:51:12 IST" duration-ms="723" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@18e36d14]" started-at="2025-03-15T01:54:55 IST" name="tearDown" finished-at="2025-03-15T01:54:56 IST" duration-ms="1212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.NSEIndia.tests.CompanyInfoPageTests -->
     </test> <!-- CompanyInfo Page Test_chrome -->
-    <test started-at="2025-03-15T01:50:29 IST" name="CompanyInfo Page Test_edge" finished-at="2025-03-15T01:51:13 IST" duration-ms="43587">
+    <test started-at="2025-03-15T01:54:15 IST" name="CompanyInfo Page Test_firefox" finished-at="2025-03-15T01:54:57 IST" duration-ms="41944">
       <class name="com.qa.NSEIndia.tests.CompanyInfoPageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:50:30 IST" name="setup" finished-at="2025-03-15T01:50:46 IST" duration-ms="16494" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:50:46 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:50:57 IST" duration-ms="10945" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rcom]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProductTest -->
-        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:50:57 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:51:04 IST" duration-ms="6173" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tatamotors]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProductTest -->
-        <test-method signature="selectProductTestWithAssert()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:51:04 IST" name="selectProductTestWithAssert" finished-at="2025-03-15T01:51:10 IST" duration-ms="6449" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectProductTestWithAssert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:51:10 IST" name="tearDown" finished-at="2025-03-15T01:51:13 IST" duration-ms="2551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.NSEIndia.tests.CompanyInfoPageTests -->
-    </test> <!-- CompanyInfo Page Test_edge -->
-    <test started-at="2025-03-15T01:50:29 IST" name="CompanyInfo Page Test_firefox" finished-at="2025-03-15T01:51:13 IST" duration-ms="44322">
-      <class name="com.qa.NSEIndia.tests.CompanyInfoPageTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:50:30 IST" name="setup" finished-at="2025-03-15T01:50:57 IST" duration-ms="26922" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:54:15 IST" name="setup" finished-at="2025-03-15T01:54:41 IST" duration-ms="25587" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:50:57 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:51:01 IST" duration-ms="3916" status="FAIL">
+        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:54:41 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:54:45 IST" duration-ms="4212" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -123,7 +78,7 @@
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.qa.NSEIndia.utilities.ElementUtilities.getElement(org.openqa.selenium.By)" is null
 at com.qa.NSEIndia.utilities.ElementUtilities.doGetText(ElementUtilities.java:79)
-at com.qa.NSEIndia.pages.CompanyInfoPage.selectProduct(CompanyInfoPage.java:32)
+at com.qa.NSEIndia.pages.CompanyInfoPage.selectProduct(CompanyInfoPage.java:37)
 at com.qa.NSEIndia.tests.CompanyInfoPageTests.selectProductTest(CompanyInfoPageTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -154,7 +109,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTest -->
-        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:51:02 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:51:05 IST" duration-ms="2466" status="FAIL">
+        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:54:46 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:54:49 IST" duration-ms="2274" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -169,7 +124,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.qa.NSEIndia.utilities.ElementUtilities.getElement(org.openqa.selenium.By)" is null
 at com.qa.NSEIndia.utilities.ElementUtilities.doGetText(ElementUtilities.java:79)
-at com.qa.NSEIndia.pages.CompanyInfoPage.selectProduct(CompanyInfoPage.java:32)
+at com.qa.NSEIndia.pages.CompanyInfoPage.selectProduct(CompanyInfoPage.java:37)
 at com.qa.NSEIndia.tests.CompanyInfoPageTests.selectProductTest(CompanyInfoPageTests.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -200,7 +155,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTest -->
-        <test-method signature="selectProductTestWithAssert()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:51:06 IST" name="selectProductTestWithAssert" finished-at="2025-03-15T01:51:09 IST" duration-ms="3482" status="FAIL">
+        <test-method signature="selectProductTestWithAssert()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:54:49 IST" name="selectProductTestWithAssert" finished-at="2025-03-15T01:54:52 IST" duration-ms="2931" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.qa.NSEIndia.utilities.ElementUtilities.getElement(org.openqa.selenium.By)" is null]]>
@@ -208,7 +163,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.getText()" because the return value of "com.qa.NSEIndia.utilities.ElementUtilities.getElement(org.openqa.selenium.By)" is null
 at com.qa.NSEIndia.utilities.ElementUtilities.doGetText(ElementUtilities.java:79)
-at com.qa.NSEIndia.pages.CompanyInfoPage.selectProduct(CompanyInfoPage.java:32)
+at com.qa.NSEIndia.pages.CompanyInfoPage.selectProduct(CompanyInfoPage.java:37)
 at com.qa.NSEIndia.tests.CompanyInfoPageTests.selectProductTestWithAssert(CompanyInfoPageTests.java:35)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -239,11 +194,56 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectProductTestWithAssert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:51:10 IST" name="tearDown" finished-at="2025-03-15T01:51:13 IST" duration-ms="3254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@3148f668]" started-at="2025-03-15T01:54:53 IST" name="tearDown" finished-at="2025-03-15T01:54:57 IST" duration-ms="3991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.NSEIndia.tests.CompanyInfoPageTests -->
     </test> <!-- CompanyInfo Page Test_firefox -->
+    <test started-at="2025-03-15T01:54:15 IST" name="CompanyInfo Page Test_edge" finished-at="2025-03-15T01:54:57 IST" duration-ms="42183">
+      <class name="com.qa.NSEIndia.tests.CompanyInfoPageTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:54:15 IST" name="setup" finished-at="2025-03-15T01:54:24 IST" duration-ms="8277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:54:24 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:54:42 IST" duration-ms="18179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rcom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method signature="selectProductTest(java.lang.String)[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:54:42 IST" name="selectProductTest" data-provider="userRegTestData" finished-at="2025-03-15T01:54:48 IST" duration-ms="5677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tatamotors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method signature="selectProductTestWithAssert()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:54:48 IST" name="selectProductTestWithAssert" finished-at="2025-03-15T01:54:54 IST" duration-ms="6245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTestWithAssert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.NSEIndia.tests.CompanyInfoPageTests@38ba6ce3]" started-at="2025-03-15T01:54:54 IST" name="tearDown" finished-at="2025-03-15T01:54:57 IST" duration-ms="2960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.NSEIndia.tests.CompanyInfoPageTests -->
+    </test> <!-- CompanyInfo Page Test_edge -->
   </suite> <!-- NSEIndia App Test Suite -->
 </testng-results>

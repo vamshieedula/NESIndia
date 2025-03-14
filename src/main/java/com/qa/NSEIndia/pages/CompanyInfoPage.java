@@ -27,8 +27,12 @@ public class CompanyInfoPage {
 		return eleUtil.doIsDisplayed(tradeBar);
 	}
 	
-	public List<String> selectProduct() throws InterruptedException {
-		Thread.sleep(1000);
+	public List<String> selectProduct() {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		String currentValue = eleUtil.doGetText(currentMarketValue);
 		System.out.println("current market value of the stock is "+currentValue);
 		List<String> week52Values = eleUtil.getElementsTextList(weekHighLow);
