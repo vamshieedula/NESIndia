@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.NSEIndia.exceptions.ElementException;
+import com.qa.NSEIndia.logger.Log;
 
 public class ElementUtilities {
 
@@ -40,7 +41,7 @@ public class ElementUtilities {
 			WebElement element = driver.findElement(locator);
 			return element;
 		} catch (NoSuchElementException e) {
-			System.out.println("Element is not present on the page" + locator);
+			Log.error("Element is not present on the page" + locator);
 			e.printStackTrace();
 			return null;
 		}

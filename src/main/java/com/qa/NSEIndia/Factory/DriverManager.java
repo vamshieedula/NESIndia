@@ -91,9 +91,12 @@ public class DriverManager {
 		try {
 			FileInputStream ip = new FileInputStream(AppConstants.CONFIG_FILE_PATH);
 			prop.load(ip);
+			Log.info("Properties file loaded");
 		} catch (FileNotFoundException e) {
+			Log.error("Unable to find properites file at the given location");
 			e.printStackTrace();
 		} catch (IOException e) {
+			Log.error("error in loading properites file");
 			e.printStackTrace();
 		}
 		return prop;
